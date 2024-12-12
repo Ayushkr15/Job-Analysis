@@ -1,0 +1,2212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_28d97fb8e5329f34e7d8f725c655c307 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_28d97fb8e5329f34e7d8f725c655c307" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_28d97fb8e5329f34e7d8f725c655c307 = L.map(
+                "map_28d97fb8e5329f34e7d8f725c655c307",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "maxBounds": null,
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7fe9ae8344aeb494be9cb8e58f31c4d9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7fe9ae8344aeb494be9cb8e58f31c4d9.addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+            var circle_marker_5a77d48239d177fa5d503d74ac2afb93 = L.circleMarker(
+                [23.8312377, 91.2823821],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_cb0086aaad6bbc8a6d678c2c12fd048b = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_6dcae6b8a764652d45186778656c42c4 = $(`<div id="html_6dcae6b8a764652d45186778656c42c4" style="width: 100.0%; height: 100.0%;">City: Agartala<br>Avg Salary: nan LPA</div>`)[0];
+                popup_cb0086aaad6bbc8a6d678c2c12fd048b.setContent(html_6dcae6b8a764652d45186778656c42c4);
+            
+        
+
+        circle_marker_5a77d48239d177fa5d503d74ac2afb93.bindPopup(popup_cb0086aaad6bbc8a6d678c2c12fd048b)
+        ;
+
+        
+    
+    
+            var circle_marker_c024de0c6c868238ac21f44e4f4a985d = L.circleMarker(
+                [27.1752554, 78.0098161],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_16d039ee1f4625fcdf363635db69bd19 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_3b72434dd5cb3812d59c5c680c1c159e = $(`<div id="html_3b72434dd5cb3812d59c5c680c1c159e" style="width: 100.0%; height: 100.0%;">City: Agra<br>Avg Salary: nan LPA</div>`)[0];
+                popup_16d039ee1f4625fcdf363635db69bd19.setContent(html_3b72434dd5cb3812d59c5c680c1c159e);
+            
+        
+
+        circle_marker_c024de0c6c868238ac21f44e4f4a985d.bindPopup(popup_16d039ee1f4625fcdf363635db69bd19)
+        ;
+
+        
+    
+    
+            var circle_marker_246715cb8e086bb3e428f69c6bf90530 = L.circleMarker(
+                [23.0215374, 72.5800568],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_b1e6246388c7f798fa6e3dbb360b9458 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_0183a934e3d1a883e0df312bed90c214 = $(`<div id="html_0183a934e3d1a883e0df312bed90c214" style="width: 100.0%; height: 100.0%;">City: Ahmedabad<br>Avg Salary: 4.00 LPA</div>`)[0];
+                popup_b1e6246388c7f798fa6e3dbb360b9458.setContent(html_0183a934e3d1a883e0df312bed90c214);
+            
+        
+
+        circle_marker_246715cb8e086bb3e428f69c6bf90530.bindPopup(popup_b1e6246388c7f798fa6e3dbb360b9458)
+        ;
+
+        
+    
+    
+            var circle_marker_9e31a3b847ba4fcfc0154412736a3c1b = L.circleMarker(
+                [22.16578144803882, 73.12438181522108],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_5ff75d7e23ed7e26eae84850e1ed4a79 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_ca9047267516de3c20c559bf8043bd8d = $(`<div id="html_ca9047267516de3c20c559bf8043bd8d" style="width: 100.0%; height: 100.0%;">City: Ahmedabad, Vadodara<br>Avg Salary: nan LPA</div>`)[0];
+                popup_5ff75d7e23ed7e26eae84850e1ed4a79.setContent(html_ca9047267516de3c20c559bf8043bd8d);
+            
+        
+
+        circle_marker_9e31a3b847ba4fcfc0154412736a3c1b.bindPopup(popup_5ff75d7e23ed7e26eae84850e1ed4a79)
+        ;
+
+        
+    
+    
+            var circle_marker_39f0b4e44a199da97dae78750a60b635 = L.circleMarker(
+                [31.6356659, 74.8787496],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_3ddeb332c84d5199f76ded1076502e10 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_e8db382107043fc986748b3ae792b33d = $(`<div id="html_e8db382107043fc986748b3ae792b33d" style="width: 100.0%; height: 100.0%;">City: Amritsar<br>Avg Salary: nan LPA</div>`)[0];
+                popup_3ddeb332c84d5199f76ded1076502e10.setContent(html_e8db382107043fc986748b3ae792b33d);
+            
+        
+
+        circle_marker_39f0b4e44a199da97dae78750a60b635.bindPopup(popup_3ddeb332c84d5199f76ded1076502e10)
+        ;
+
+        
+    
+    
+            var circle_marker_bb9df8912cf05eb99e3ccb99866efdc9 = L.circleMarker(
+                [13.0010872, 77.3361225],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_672b8357358ee1ecf31e564d08155f34 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_0e5bb8a82d5321ea18da283d6eb289b7 = $(`<div id="html_0e5bb8a82d5321ea18da283d6eb289b7" style="width: 100.0%; height: 100.0%;">City: Bangalore Rural<br>Avg Salary: nan LPA</div>`)[0];
+                popup_672b8357358ee1ecf31e564d08155f34.setContent(html_0e5bb8a82d5321ea18da283d6eb289b7);
+            
+        
+
+        circle_marker_bb9df8912cf05eb99e3ccb99866efdc9.bindPopup(popup_672b8357358ee1ecf31e564d08155f34)
+        ;
+
+        
+    
+    
+            var circle_marker_6c80d9c838b1c2fdcc9de3c02ba142f2 = L.circleMarker(
+                [13.0010872, 77.3361225],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_5224ba3f59317e9f03fc8671d8dfb007 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_795bd82ab20ab8e2e2035f363264ae61 = $(`<div id="html_795bd82ab20ab8e2e2035f363264ae61" style="width: 100.0%; height: 100.0%;">City: Bangalore Rural, Bengaluru<br>Avg Salary: 16.00 LPA</div>`)[0];
+                popup_5224ba3f59317e9f03fc8671d8dfb007.setContent(html_795bd82ab20ab8e2e2035f363264ae61);
+            
+        
+
+        circle_marker_6c80d9c838b1c2fdcc9de3c02ba142f2.bindPopup(popup_5224ba3f59317e9f03fc8671d8dfb007)
+        ;
+
+        
+    
+    
+            var circle_marker_dcb97034d2dcd32804a6982cbe7020bb = L.circleMarker(
+                [12.98815675, 77.62260003796],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.875, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_28520aef30184570d28702fe9dc47bce = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_ba40b3602320d969029c7e1af8aa3544 = $(`<div id="html_ba40b3602320d969029c7e1af8aa3544" style="width: 100.0%; height: 100.0%;">City: Bangalore/Bengaluru<br>Avg Salary: 1.75 LPA</div>`)[0];
+                popup_28520aef30184570d28702fe9dc47bce.setContent(html_ba40b3602320d969029c7e1af8aa3544);
+            
+        
+
+        circle_marker_dcb97034d2dcd32804a6982cbe7020bb.bindPopup(popup_28520aef30184570d28702fe9dc47bce)
+        ;
+
+        
+    
+    
+            var circle_marker_70934c622dc7af1b821a01abc2fcb672 = L.circleMarker(
+                [12.98815675, 77.62260003796],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.075892857142857, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_fc0297a5a50c7ae58d0491ed88c11e32 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_bce14c53c9a42e69efbbfd60705c8f2f = $(`<div id="html_bce14c53c9a42e69efbbfd60705c8f2f" style="width: 100.0%; height: 100.0%;">City: Bengaluru<br>Avg Salary: 8.15 LPA</div>`)[0];
+                popup_fc0297a5a50c7ae58d0491ed88c11e32.setContent(html_bce14c53c9a42e69efbbfd60705c8f2f);
+            
+        
+
+        circle_marker_70934c622dc7af1b821a01abc2fcb672.bindPopup(popup_fc0297a5a50c7ae58d0491ed88c11e32)
+        ;
+
+        
+    
+    
+            var circle_marker_da165fbf751aadc5a8d6d50768eb3260 = L.circleMarker(
+                [12.9086277, 77.62798305],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_4b0ac1735232bdc563433af15280df31 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_18e125fe01cd6beff946d3b65cc0a4db = $(`<div id="html_18e125fe01cd6beff946d3b65cc0a4db" style="width: 100.0%; height: 100.0%;">City: Bengaluru, HSR Layout<br>Avg Salary: nan LPA</div>`)[0];
+                popup_4b0ac1735232bdc563433af15280df31.setContent(html_18e125fe01cd6beff946d3b65cc0a4db);
+            
+        
+
+        circle_marker_da165fbf751aadc5a8d6d50768eb3260.bindPopup(popup_4b0ac1735232bdc563433af15280df31)
+        ;
+
+        
+    
+    
+            var circle_marker_5859771267e7b902d1ddee178730d1a1 = L.circleMarker(
+                [13.0176937, 77.5555008636176],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_499a6318c5ecf6230ffe8d3716cd3645 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_33150b6a2b053902c6c989117c1bc83e = $(`<div id="html_33150b6a2b053902c6c989117c1bc83e" style="width: 100.0%; height: 100.0%;">City: Bengaluru, Yeshwanthpur<br>Avg Salary: nan LPA</div>`)[0];
+                popup_499a6318c5ecf6230ffe8d3716cd3645.setContent(html_33150b6a2b053902c6c989117c1bc83e);
+            
+        
+
+        circle_marker_5859771267e7b902d1ddee178730d1a1.bindPopup(popup_499a6318c5ecf6230ffe8d3716cd3645)
+        ;
+
+        
+    
+    
+            var circle_marker_941735ac1299f504230cf1a5acdf00f5 = L.circleMarker(
+                [21.2120677, 81.3732849],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_e77d1dbf97128d83fc2db019e0c745c3 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_1796052535d971d8ddbfc3f559b044e9 = $(`<div id="html_1796052535d971d8ddbfc3f559b044e9" style="width: 100.0%; height: 100.0%;">City: Bhilai<br>Avg Salary: nan LPA</div>`)[0];
+                popup_e77d1dbf97128d83fc2db019e0c745c3.setContent(html_1796052535d971d8ddbfc3f559b044e9);
+            
+        
+
+        circle_marker_941735ac1299f504230cf1a5acdf00f5.bindPopup(popup_e77d1dbf97128d83fc2db019e0c745c3)
+        ;
+
+        
+    
+    
+            var circle_marker_68c437e2da9edea5acf8caef6bfae6d7 = L.circleMarker(
+                [28.2039413, 76.837441],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_63dbc57502706977895955995b6e83f8 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a9d00717b2de3a88f3b9a53a0fac4560 = $(`<div id="html_a9d00717b2de3a88f3b9a53a0fac4560" style="width: 100.0%; height: 100.0%;">City: Bhiwadi<br>Avg Salary: nan LPA</div>`)[0];
+                popup_63dbc57502706977895955995b6e83f8.setContent(html_a9d00717b2de3a88f3b9a53a0fac4560);
+            
+        
+
+        circle_marker_68c437e2da9edea5acf8caef6bfae6d7.bindPopup(popup_63dbc57502706977895955995b6e83f8)
+        ;
+
+        
+    
+    
+            var circle_marker_106bbc07d136fbb2c56430dba0645176 = L.circleMarker(
+                [28.0159286, 73.3171367],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_c6134173825523a920c7fde41186167f = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_e332b3835f64805c1958fc345428c59a = $(`<div id="html_e332b3835f64805c1958fc345428c59a" style="width: 100.0%; height: 100.0%;">City: Bikaner<br>Avg Salary: nan LPA</div>`)[0];
+                popup_c6134173825523a920c7fde41186167f.setContent(html_e332b3835f64805c1958fc345428c59a);
+            
+        
+
+        circle_marker_106bbc07d136fbb2c56430dba0645176.bindPopup(popup_c6134173825523a920c7fde41186167f)
+        ;
+
+        
+    
+    
+            var circle_marker_8420743535a608fbf0cfaaad44655dd5 = L.circleMarker(
+                [30.7334421, 76.7797143],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_3633286e58b2272400b7bb746031d6ce = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_d9ae13727e6aa966a8b6c374ca7cb105 = $(`<div id="html_d9ae13727e6aa966a8b6c374ca7cb105" style="width: 100.0%; height: 100.0%;">City: Chandigarh<br>Avg Salary: nan LPA</div>`)[0];
+                popup_3633286e58b2272400b7bb746031d6ce.setContent(html_d9ae13727e6aa966a8b6c374ca7cb105);
+            
+        
+
+        circle_marker_8420743535a608fbf0cfaaad44655dd5.bindPopup(popup_3633286e58b2272400b7bb746031d6ce)
+        ;
+
+        
+    
+    
+            var circle_marker_9b86a86a38b8115c201fd839eaac00d8 = L.circleMarker(
+                [13.0836939, 80.270186],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.708333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_1c7eb9c7792702f0ff04ecf2acce2866 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_025096aa12f18a88833dc607c9461d2a = $(`<div id="html_025096aa12f18a88833dc607c9461d2a" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Avg Salary: 11.42 LPA</div>`)[0];
+                popup_1c7eb9c7792702f0ff04ecf2acce2866.setContent(html_025096aa12f18a88833dc607c9461d2a);
+            
+        
+
+        circle_marker_9b86a86a38b8115c201fd839eaac00d8.bindPopup(popup_1c7eb9c7792702f0ff04ecf2acce2866)
+        ;
+
+        
+    
+    
+            var circle_marker_98de7f6180b83f508a465e1e4b3a9374 = L.circleMarker(
+                [13.015509470968237, 77.55532286559743],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_10f66a9ee7b58bf2dfe1d64f29c988e9 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_1d87687f1eb65a921c33334b7f7eff67 = $(`<div id="html_1d87687f1eb65a921c33334b7f7eff67" style="width: 100.0%; height: 100.0%;">City: Chennai, Bengaluru<br>Avg Salary: nan LPA</div>`)[0];
+                popup_10f66a9ee7b58bf2dfe1d64f29c988e9.setContent(html_1d87687f1eb65a921c33334b7f7eff67);
+            
+        
+
+        circle_marker_98de7f6180b83f508a465e1e4b3a9374.bindPopup(popup_10f66a9ee7b58bf2dfe1d64f29c988e9)
+        ;
+
+        
+    
+    
+            var circle_marker_535b6826fae46870aac1998f631b6241 = L.circleMarker(
+                [13.08925745, 80.28684558208381],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_0ba57c424ffdc9214a6dddccaf1979c4 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_3a6c382234e538e085be6f866686051c = $(`<div id="html_3a6c382234e538e085be6f866686051c" style="width: 100.0%; height: 100.0%;">City: Chennai, Jaipur<br>Avg Salary: nan LPA</div>`)[0];
+                popup_0ba57c424ffdc9214a6dddccaf1979c4.setContent(html_3a6c382234e538e085be6f866686051c);
+            
+        
+
+        circle_marker_535b6826fae46870aac1998f631b6241.bindPopup(popup_0ba57c424ffdc9214a6dddccaf1979c4)
+        ;
+
+        
+    
+    
+            var circle_marker_f73836ec6d10677cb6835a1b44a401ca = L.circleMarker(
+                [13.0894888, 80.2848331],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_7609fc99d7e5fae4155505b489c453e5 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_64698d28775bd7a8d949ed7d2f390121 = $(`<div id="html_64698d28775bd7a8d949ed7d2f390121" style="width: 100.0%; height: 100.0%;">City: Chennai, Mumbai<br>Avg Salary: 15.00 LPA</div>`)[0];
+                popup_7609fc99d7e5fae4155505b489c453e5.setContent(html_64698d28775bd7a8d949ed7d2f390121);
+            
+        
+
+        circle_marker_f73836ec6d10677cb6835a1b44a401ca.bindPopup(popup_7609fc99d7e5fae4155505b489c453e5)
+        ;
+
+        
+    
+    
+            var circle_marker_fe6561ba4f13c33b8805b995771843a8 = L.circleMarker(
+                [11.0018115, 76.9628425],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.65, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_7826894694ff6e8ecda5ce82196869b9 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_e2232e8715bb5fd26c09705e2587db5d = $(`<div id="html_e2232e8715bb5fd26c09705e2587db5d" style="width: 100.0%; height: 100.0%;">City: Coimbatore<br>Avg Salary: 3.30 LPA</div>`)[0];
+                popup_7826894694ff6e8ecda5ce82196869b9.setContent(html_e2232e8715bb5fd26c09705e2587db5d);
+            
+        
+
+        circle_marker_fe6561ba4f13c33b8805b995771843a8.bindPopup(popup_7826894694ff6e8ecda5ce82196869b9)
+        ;
+
+        
+    
+    
+            var circle_marker_50a1263b36fa7b90845c8fdbeb4504a0 = L.circleMarker(
+                [11.49052815, 77.35052739885393],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_08770df8fb9adb54f30cbcd88d0123fe = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_3e64707c98cf4b9217eec3216658629b = $(`<div id="html_3e64707c98cf4b9217eec3216658629b" style="width: 100.0%; height: 100.0%;">City: Erode<br>Avg Salary: nan LPA</div>`)[0];
+                popup_08770df8fb9adb54f30cbcd88d0123fe.setContent(html_3e64707c98cf4b9217eec3216658629b);
+            
+        
+
+        circle_marker_50a1263b36fa7b90845c8fdbeb4504a0.bindPopup(popup_08770df8fb9adb54f30cbcd88d0123fe)
+        ;
+
+        
+    
+    
+            var circle_marker_6cc35c5bfb4b8bb906b3c2c0e1a1223b = L.circleMarker(
+                [28.4031478, 77.3105561],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.5, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_c503780f3f775488756635119e88b010 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_6db96f051d5108caeeb5a2af4c3111cf = $(`<div id="html_6db96f051d5108caeeb5a2af4c3111cf" style="width: 100.0%; height: 100.0%;">City: Faridabad<br>Avg Salary: 19.00 LPA</div>`)[0];
+                popup_c503780f3f775488756635119e88b010.setContent(html_6db96f051d5108caeeb5a2af4c3111cf);
+            
+        
+
+        circle_marker_6cc35c5bfb4b8bb906b3c2c0e1a1223b.bindPopup(popup_c503780f3f775488756635119e88b010)
+        ;
+
+        
+    
+    
+            var circle_marker_ab0a9e8365aac514140b7a42089e33a7 = L.circleMarker(
+                [23.2232877, 72.6492267],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_f10c17f1d5080a7d6579a620a45e7300 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_405559cff8b0bc9b7b91799f1aa33ac4 = $(`<div id="html_405559cff8b0bc9b7b91799f1aa33ac4" style="width: 100.0%; height: 100.0%;">City: Gandhinagar<br>Avg Salary: nan LPA</div>`)[0];
+                popup_f10c17f1d5080a7d6579a620a45e7300.setContent(html_405559cff8b0bc9b7b91799f1aa33ac4);
+            
+        
+
+        circle_marker_ab0a9e8365aac514140b7a42089e33a7.bindPopup(popup_f10c17f1d5080a7d6579a620a45e7300)
+        ;
+
+        
+    
+    
+            var circle_marker_3a0f54ddeddf6f4eed00fe8b7076bd81 = L.circleMarker(
+                [28.7749966, 77.4586967071196],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.81, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_7f1fb3f499e28718ab05eda97c63e43f = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_4cc9c7fcc96322dc458a2a268834e50b = $(`<div id="html_4cc9c7fcc96322dc458a2a268834e50b" style="width: 100.0%; height: 100.0%;">City: Ghaziabad<br>Avg Salary: 1.62 LPA</div>`)[0];
+                popup_7f1fb3f499e28718ab05eda97c63e43f.setContent(html_4cc9c7fcc96322dc458a2a268834e50b);
+            
+        
+
+        circle_marker_3a0f54ddeddf6f4eed00fe8b7076bd81.bindPopup(popup_7f1fb3f499e28718ab05eda97c63e43f)
+        ;
+
+        
+    
+    
+            var circle_marker_4e3f9d47d4ebea611ff51aeb1df1dc62 = L.circleMarker(
+                [28.4670734, 77.5137649],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_5bb289548857e0ccfa1cf8a97c6a92ff = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_28dfd9a239a85b60776ab98e43f00f78 = $(`<div id="html_28dfd9a239a85b60776ab98e43f00f78" style="width: 100.0%; height: 100.0%;">City: Greater Noida<br>Avg Salary: nan LPA</div>`)[0];
+                popup_5bb289548857e0ccfa1cf8a97c6a92ff.setContent(html_28dfd9a239a85b60776ab98e43f00f78);
+            
+        
+
+        circle_marker_4e3f9d47d4ebea611ff51aeb1df1dc62.bindPopup(popup_5bb289548857e0ccfa1cf8a97c6a92ff)
+        ;
+
+        
+    
+    
+            var circle_marker_0c348f78a5c58522a3ffeefcd670993d = L.circleMarker(
+                [28.4646148, 77.0299194],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_a07886fea78d64956229c3caec5d5762 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_6c8f54da049af0f70a1882d5995bcee6 = $(`<div id="html_6c8f54da049af0f70a1882d5995bcee6" style="width: 100.0%; height: 100.0%;">City: Gurgaon<br>Avg Salary: nan LPA</div>`)[0];
+                popup_a07886fea78d64956229c3caec5d5762.setContent(html_6c8f54da049af0f70a1882d5995bcee6);
+            
+        
+
+        circle_marker_0c348f78a5c58522a3ffeefcd670993d.bindPopup(popup_a07886fea78d64956229c3caec5d5762)
+        ;
+
+        
+    
+    
+            var circle_marker_6f1e2659819fc493580261527bf49566 = L.circleMarker(
+                [28.4646148, 77.0299194],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.6666666666666665, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_d9aca1ed8482baf175a08d94b1cb335e = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_74eecf2da3393d29961fbc7dd667a60c = $(`<div id="html_74eecf2da3393d29961fbc7dd667a60c" style="width: 100.0%; height: 100.0%;">City: Gurugram<br>Avg Salary: 7.33 LPA</div>`)[0];
+                popup_d9aca1ed8482baf175a08d94b1cb335e.setContent(html_74eecf2da3393d29961fbc7dd667a60c);
+            
+        
+
+        circle_marker_6f1e2659819fc493580261527bf49566.bindPopup(popup_d9aca1ed8482baf175a08d94b1cb335e)
+        ;
+
+        
+    
+    
+            var circle_marker_688824fe8529001a9e754aaa0070c44e = L.circleMarker(
+                [28.422088449999997, 77.10429893398548],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_849e57f8a08e0ab43a452d9dc6a6ab85 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_6e29ab7532aaa39676d5cb9ab31e30c2 = $(`<div id="html_6e29ab7532aaa39676d5cb9ab31e30c2" style="width: 100.0%; height: 100.0%;">City: Gurugram, Delhi / NCR<br>Avg Salary: nan LPA</div>`)[0];
+                popup_849e57f8a08e0ab43a452d9dc6a6ab85.setContent(html_6e29ab7532aaa39676d5cb9ab31e30c2);
+            
+        
+
+        circle_marker_688824fe8529001a9e754aaa0070c44e.bindPopup(popup_849e57f8a08e0ab43a452d9dc6a6ab85)
+        ;
+
+        
+    
+    
+            var circle_marker_33ed0c20e653a7a5ccec50db93848467 = L.circleMarker(
+                [26.1805978, 91.753943],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_579c75ccec091640236a9088bc815392 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_7a60d05c70c70a4a3d5ad9946b72acc9 = $(`<div id="html_7a60d05c70c70a4a3d5ad9946b72acc9" style="width: 100.0%; height: 100.0%;">City: Guwahati<br>Avg Salary: nan LPA</div>`)[0];
+                popup_579c75ccec091640236a9088bc815392.setContent(html_7a60d05c70c70a4a3d5ad9946b72acc9);
+            
+        
+
+        circle_marker_33ed0c20e653a7a5ccec50db93848467.bindPopup(popup_579c75ccec091640236a9088bc815392)
+        ;
+
+        
+    
+    
+            var circle_marker_02c8d819a323ddfbc9b0372691771f15 = L.circleMarker(
+                [13.022506, 77.7122068],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.96875, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_e5b35a347be491837ab30be9d7dbe9d2 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_5286bac16752c69da09d87edbba2520e = $(`<div id="html_5286bac16752c69da09d87edbba2520e" style="width: 100.0%; height: 100.0%;">City: Hybrid - Bengaluru<br>Avg Salary: 15.94 LPA</div>`)[0];
+                popup_e5b35a347be491837ab30be9d7dbe9d2.setContent(html_5286bac16752c69da09d87edbba2520e);
+            
+        
+
+        circle_marker_02c8d819a323ddfbc9b0372691771f15.bindPopup(popup_e5b35a347be491837ab30be9d7dbe9d2)
+        ;
+
+        
+    
+    
+            var circle_marker_29bb40a857d59498a6b2fb4e723ca506 = L.circleMarker(
+                [24.8862262, 67.0518214],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_f293de648eb1ede2b148d021d0c935d7 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_ae444bd5809df18727d2175193549675 = $(`<div id="html_ae444bd5809df18727d2175193549675" style="width: 100.0%; height: 100.0%;">City: Hybrid - Hyderabad<br>Avg Salary: nan LPA</div>`)[0];
+                popup_f293de648eb1ede2b148d021d0c935d7.setContent(html_ae444bd5809df18727d2175193549675);
+            
+        
+
+        circle_marker_29bb40a857d59498a6b2fb4e723ca506.bindPopup(popup_f293de648eb1ede2b148d021d0c935d7)
+        ;
+
+        
+    
+    
+            var circle_marker_0f608558886400248d7e520e28c4fe26 = L.circleMarker(
+                [19.1078563, 72.8825816],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_8571bdea4418a22d3ffa2452718bd381 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_924b15e1041cebe430b21c6461f1c658 = $(`<div id="html_924b15e1041cebe430b21c6461f1c658" style="width: 100.0%; height: 100.0%;">City: Hybrid - Mumbai<br>Avg Salary: nan LPA</div>`)[0];
+                popup_8571bdea4418a22d3ffa2452718bd381.setContent(html_924b15e1041cebe430b21c6461f1c658);
+            
+        
+
+        circle_marker_0f608558886400248d7e520e28c4fe26.bindPopup(popup_8571bdea4418a22d3ffa2452718bd381)
+        ;
+
+        
+    
+    
+            var circle_marker_1bd764e1c61ad4bd5d0200d6457dd649 = L.circleMarker(
+                [17.360589, 78.4740613],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.291666666666666, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_7c804da127614829bb434986a661fad5 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_c4d6a51ca5d8a769a79ecb2b6ddebc25 = $(`<div id="html_c4d6a51ca5d8a769a79ecb2b6ddebc25" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Avg Salary: 20.58 LPA</div>`)[0];
+                popup_7c804da127614829bb434986a661fad5.setContent(html_c4d6a51ca5d8a769a79ecb2b6ddebc25);
+            
+        
+
+        circle_marker_1bd764e1c61ad4bd5d0200d6457dd649.bindPopup(popup_7c804da127614829bb434986a661fad5)
+        ;
+
+        
+    
+    
+            var circle_marker_39d6e5494cbbe02b8fe63f8f4761c236 = L.circleMarker(
+                [13.023331, 77.6370384],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_65c30999ddce5ff66a17233e29462c24 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a013bceb0756b5cb156d721d89fb0679 = $(`<div id="html_a013bceb0756b5cb156d721d89fb0679" style="width: 100.0%; height: 100.0%;">City: Hyderabad, Bengaluru<br>Avg Salary: nan LPA</div>`)[0];
+                popup_65c30999ddce5ff66a17233e29462c24.setContent(html_a013bceb0756b5cb156d721d89fb0679);
+            
+        
+
+        circle_marker_39d6e5494cbbe02b8fe63f8f4761c236.bindPopup(popup_65c30999ddce5ff66a17233e29462c24)
+        ;
+
+        
+    
+    
+            var circle_marker_1151d00838e9ea4885127e2c9aee11a0 = L.circleMarker(
+                [12.9073279, 77.6283365],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.75, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_8e4c0175bb1a30c0fba71926ffead71b = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_f897119ee27a51667d87ad01ae6a52ca = $(`<div id="html_f897119ee27a51667d87ad01ae6a52ca" style="width: 100.0%; height: 100.0%;">City: Hyderabad, Chennai, Bengaluru<br>Avg Salary: 5.50 LPA</div>`)[0];
+                popup_8e4c0175bb1a30c0fba71926ffead71b.setContent(html_f897119ee27a51667d87ad01ae6a52ca);
+            
+        
+
+        circle_marker_1151d00838e9ea4885127e2c9aee11a0.bindPopup(popup_8e4c0175bb1a30c0fba71926ffead71b)
+        ;
+
+        
+    
+    
+            var circle_marker_08e37212678c19239680c2c9840dc6fe = L.circleMarker(
+                [17.379556733338745, 78.56940855130418],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_c67cf2895687275ec4517811b867a7ce = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_ae733e8862c1a8d1e163dd5b4994435e = $(`<div id="html_ae733e8862c1a8d1e163dd5b4994435e" style="width: 100.0%; height: 100.0%;">City: Hyderabad, Jaipur<br>Avg Salary: nan LPA</div>`)[0];
+                popup_c67cf2895687275ec4517811b867a7ce.setContent(html_ae733e8862c1a8d1e163dd5b4994435e);
+            
+        
+
+        circle_marker_08e37212678c19239680c2c9840dc6fe.bindPopup(popup_c67cf2895687275ec4517811b867a7ce)
+        ;
+
+        
+    
+    
+            var circle_marker_cae477fd98249ea3079a59b0f8309d59 = L.circleMarker(
+                [18.604376, 73.9099524],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_15d73b53f43c7a3a61d77c0ff1e47142 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_ca4e50eae9d9465ea9d2c07e35aad566 = $(`<div id="html_ca4e50eae9d9465ea9d2c07e35aad566" style="width: 100.0%; height: 100.0%;">City: Indore, Pune<br>Avg Salary: nan LPA</div>`)[0];
+                popup_15d73b53f43c7a3a61d77c0ff1e47142.setContent(html_ca4e50eae9d9465ea9d2c07e35aad566);
+            
+        
+
+        circle_marker_cae477fd98249ea3079a59b0f8309d59.bindPopup(popup_15d73b53f43c7a3a61d77c0ff1e47142)
+        ;
+
+        
+    
+    
+            var circle_marker_ac6ccee51d76a689e91f9c7cbf2a710f = L.circleMarker(
+                [26.9154576, 75.8189817],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.375, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_3a1deaf0aa203f446d6eaf36967526e8 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_3981a012f8fe7c1219994db0a023d5f8 = $(`<div id="html_3981a012f8fe7c1219994db0a023d5f8" style="width: 100.0%; height: 100.0%;">City: Jaipur<br>Avg Salary: 2.75 LPA</div>`)[0];
+                popup_3a1deaf0aa203f446d6eaf36967526e8.setContent(html_3981a012f8fe7c1219994db0a023d5f8);
+            
+        
+
+        circle_marker_ac6ccee51d76a689e91f9c7cbf2a710f.bindPopup(popup_3a1deaf0aa203f446d6eaf36967526e8)
+        ;
+
+        
+    
+    
+            var circle_marker_194151fba2b097d7d9a33a08540e5ffa = L.circleMarker(
+                [12.9697099, 77.6368108],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_f97e66e301d025cd1fe2162f0df7f889 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_36fed4956eb1bd7479b1004919ffbe74 = $(`<div id="html_36fed4956eb1bd7479b1004919ffbe74" style="width: 100.0%; height: 100.0%;">City: Jaipur, Bengaluru<br>Avg Salary: nan LPA</div>`)[0];
+                popup_f97e66e301d025cd1fe2162f0df7f889.setContent(html_36fed4956eb1bd7479b1004919ffbe74);
+            
+        
+
+        circle_marker_194151fba2b097d7d9a33a08540e5ffa.bindPopup(popup_f97e66e301d025cd1fe2162f0df7f889)
+        ;
+
+        
+    
+    
+            var circle_marker_8cd535ef6b3e770755de8c3f2ba3e2f8 = L.circleMarker(
+                [22.8015194, 86.2029579],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.375, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_d2bed13ed74a5ddae024ddd42451e8d4 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_44c7cb34f9fc928895e5d05ab680e48a = $(`<div id="html_44c7cb34f9fc928895e5d05ab680e48a" style="width: 100.0%; height: 100.0%;">City: Jamshedpur<br>Avg Salary: 2.75 LPA</div>`)[0];
+                popup_d2bed13ed74a5ddae024ddd42451e8d4.setContent(html_44c7cb34f9fc928895e5d05ab680e48a);
+            
+        
+
+        circle_marker_8cd535ef6b3e770755de8c3f2ba3e2f8.bindPopup(popup_d2bed13ed74a5ddae024ddd42451e8d4)
+        ;
+
+        
+    
+    
+            var circle_marker_6bb1b93531750a2558f67a7759a2940c = L.circleMarker(
+                [25.529855, 78.65278023546288],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_bd2ba9251f1ae7e06d8d18ce463bfb3f = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_97491005e163a09ef7e5a65e2381b071 = $(`<div id="html_97491005e163a09ef7e5a65e2381b071" style="width: 100.0%; height: 100.0%;">City: Jhansi<br>Avg Salary: nan LPA</div>`)[0];
+                popup_bd2ba9251f1ae7e06d8d18ce463bfb3f.setContent(html_97491005e163a09ef7e5a65e2381b071);
+            
+        
+
+        circle_marker_6bb1b93531750a2558f67a7759a2940c.bindPopup(popup_bd2ba9251f1ae7e06d8d18ce463bfb3f)
+        ;
+
+        
+    
+    
+            var circle_marker_928e2efb1b73ebc853046603988a42db = L.circleMarker(
+                [18.5481382, 73.9025513],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_bf0238b46736925193742d57ed08f9e2 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_4dcfcf752b70acc79d595611d59bfbc4 = $(`<div id="html_4dcfcf752b70acc79d595611d59bfbc4" style="width: 100.0%; height: 100.0%;">City: Kalyani, Pune<br>Avg Salary: nan LPA</div>`)[0];
+                popup_bf0238b46736925193742d57ed08f9e2.setContent(html_4dcfcf752b70acc79d595611d59bfbc4);
+            
+        
+
+        circle_marker_928e2efb1b73ebc853046603988a42db.bindPopup(popup_bf0238b46736925193742d57ed08f9e2)
+        ;
+
+        
+    
+    
+            var circle_marker_8d6d0eb3249fc4236f91937dafdb9af4 = L.circleMarker(
+                [17.4129744, 78.4610582],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_dc0ac54dc190499aa124dd258a47f9b2 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_3680d0d46525a07fcb1384900ee4adf3 = $(`<div id="html_3680d0d46525a07fcb1384900ee4adf3" style="width: 100.0%; height: 100.0%;">City: Khairatabad<br>Avg Salary: nan LPA</div>`)[0];
+                popup_dc0ac54dc190499aa124dd258a47f9b2.setContent(html_3680d0d46525a07fcb1384900ee4adf3);
+            
+        
+
+        circle_marker_8d6d0eb3249fc4236f91937dafdb9af4.bindPopup(popup_dc0ac54dc190499aa124dd258a47f9b2)
+        ;
+
+        
+    
+    
+            var circle_marker_05e101152bf06cd7972cef569c73607b = L.circleMarker(
+                [9.9674277, 76.2454436],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_35d2ac51978ea7cc1893aaf36846f61a = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_4913cd2cda2b28f3134f33759886ff57 = $(`<div id="html_4913cd2cda2b28f3134f33759886ff57" style="width: 100.0%; height: 100.0%;">City: Kochi<br>Avg Salary: 4.00 LPA</div>`)[0];
+                popup_35d2ac51978ea7cc1893aaf36846f61a.setContent(html_4913cd2cda2b28f3134f33759886ff57);
+            
+        
+
+        circle_marker_05e101152bf06cd7972cef569c73607b.bindPopup(popup_35d2ac51978ea7cc1893aaf36846f61a)
+        ;
+
+        
+    
+    
+            var circle_marker_f1005e8ea08060a00b182a0fe94cda81 = L.circleMarker(
+                [16.671511037410227, 74.25827283667935],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_e042c3d17ce1cfaf3dcab1fd80efe54a = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_3958dbe2349506da29278a9226f196b3 = $(`<div id="html_3958dbe2349506da29278a9226f196b3" style="width: 100.0%; height: 100.0%;">City: Kolhapur, Pune<br>Avg Salary: nan LPA</div>`)[0];
+                popup_e042c3d17ce1cfaf3dcab1fd80efe54a.setContent(html_3958dbe2349506da29278a9226f196b3);
+            
+        
+
+        circle_marker_f1005e8ea08060a00b182a0fe94cda81.bindPopup(popup_e042c3d17ce1cfaf3dcab1fd80efe54a)
+        ;
+
+        
+    
+    
+            var circle_marker_15a9cd9270394943f7f48a0ae48555d8 = L.circleMarker(
+                [22.5726459, 88.3638953],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.75, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_aee0a242663cb42f446255494f6e18f0 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_95f15f75bb07a90a252e456ac9bd5c69 = $(`<div id="html_95f15f75bb07a90a252e456ac9bd5c69" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Avg Salary: 7.50 LPA</div>`)[0];
+                popup_aee0a242663cb42f446255494f6e18f0.setContent(html_95f15f75bb07a90a252e456ac9bd5c69);
+            
+        
+
+        circle_marker_15a9cd9270394943f7f48a0ae48555d8.bindPopup(popup_aee0a242663cb42f446255494f6e18f0)
+        ;
+
+        
+    
+    
+            var circle_marker_780932cf4983ca7613e98f4a5f1357da = L.circleMarker(
+                [11.2450558, 75.7754716],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_a63f871930b919cc5944e6a93dfc10db = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_eaa9c0ed143ca9c6b122a76c79903ba9 = $(`<div id="html_eaa9c0ed143ca9c6b122a76c79903ba9" style="width: 100.0%; height: 100.0%;">City: Kozhikode<br>Avg Salary: nan LPA</div>`)[0];
+                popup_a63f871930b919cc5944e6a93dfc10db.setContent(html_eaa9c0ed143ca9c6b122a76c79903ba9);
+            
+        
+
+        circle_marker_780932cf4983ca7613e98f4a5f1357da.bindPopup(popup_a63f871930b919cc5944e6a93dfc10db)
+        ;
+
+        
+    
+    
+            var circle_marker_784acb3eb8c404bf126d35cb1236bd21 = L.circleMarker(
+                [26.8381, 80.9346001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_545ffe71e2ca68e7c06cf5383bcc0e8f = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_211ea9b5cd9debab0686ced45bb40597 = $(`<div id="html_211ea9b5cd9debab0686ced45bb40597" style="width: 100.0%; height: 100.0%;">City: Lucknow<br>Avg Salary: 9.00 LPA</div>`)[0];
+                popup_545ffe71e2ca68e7c06cf5383bcc0e8f.setContent(html_211ea9b5cd9debab0686ced45bb40597);
+            
+        
+
+        circle_marker_784acb3eb8c404bf126d35cb1236bd21.bindPopup(popup_545ffe71e2ca68e7c06cf5383bcc0e8f)
+        ;
+
+        
+    
+    
+            var circle_marker_ba21de54d87d22ff4a51a405edcaf05a = L.circleMarker(
+                [30.9090157, 75.851601],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_d08faabed5b2cb7c135da84609788378 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_5366b66fdbaa620e9b005b3c8a058b1b = $(`<div id="html_5366b66fdbaa620e9b005b3c8a058b1b" style="width: 100.0%; height: 100.0%;">City: Ludhiana<br>Avg Salary: nan LPA</div>`)[0];
+                popup_d08faabed5b2cb7c135da84609788378.setContent(html_5366b66fdbaa620e9b005b3c8a058b1b);
+            
+        
+
+        circle_marker_ba21de54d87d22ff4a51a405edcaf05a.bindPopup(popup_d08faabed5b2cb7c135da84609788378)
+        ;
+
+        
+    
+    
+            var circle_marker_295d7cf7f07ef3b2227d9c520b772fe4 = L.circleMarker(
+                [9.9261153, 78.1140983],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_45a145bdbe6e6904cb6839df557cdc79 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_12b2e239c48849a350a920fb44891198 = $(`<div id="html_12b2e239c48849a350a920fb44891198" style="width: 100.0%; height: 100.0%;">City: Madurai<br>Avg Salary: nan LPA</div>`)[0];
+                popup_45a145bdbe6e6904cb6839df557cdc79.setContent(html_12b2e239c48849a350a920fb44891198);
+            
+        
+
+        circle_marker_295d7cf7f07ef3b2227d9c520b772fe4.bindPopup(popup_45a145bdbe6e6904cb6839df557cdc79)
+        ;
+
+        
+    
+    
+            var circle_marker_92c46cf1cd99c6893c494c5568c6e0f6 = L.circleMarker(
+                [30.7041168, 76.7176885],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_4efdbf5bd3dd71653a12f91a25b4d9b8 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_1bef93c0b02491af6c2991671fc3d6de = $(`<div id="html_1bef93c0b02491af6c2991671fc3d6de" style="width: 100.0%; height: 100.0%;">City: Mohali<br>Avg Salary: nan LPA</div>`)[0];
+                popup_4efdbf5bd3dd71653a12f91a25b4d9b8.setContent(html_1bef93c0b02491af6c2991671fc3d6de);
+            
+        
+
+        circle_marker_92c46cf1cd99c6893c494c5568c6e0f6.bindPopup(popup_4efdbf5bd3dd71653a12f91a25b4d9b8)
+        ;
+
+        
+    
+    
+            var circle_marker_bd7affe8a1a80b5301c8575e52adddd9 = L.circleMarker(
+                [19.054999, 72.8692035],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.604166666666667, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_802bd546467796a295c1e69b7fddd229 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_0824914238229bedd6e7ea45902bf876 = $(`<div id="html_0824914238229bedd6e7ea45902bf876" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Avg Salary: 9.21 LPA</div>`)[0];
+                popup_802bd546467796a295c1e69b7fddd229.setContent(html_0824914238229bedd6e7ea45902bf876);
+            
+        
+
+        circle_marker_bd7affe8a1a80b5301c8575e52adddd9.bindPopup(popup_802bd546467796a295c1e69b7fddd229)
+        ;
+
+        
+    
+    
+            var circle_marker_8bdeca3e5fbb6b0c7ea2a09fa144558a = L.circleMarker(
+                [19.09015275, 72.86371349380883],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.125, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_31544a079167775d5783e497debc9b45 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_7827f13c1d3bc80d7504600f488dfdc2 = $(`<div id="html_7827f13c1d3bc80d7504600f488dfdc2" style="width: 100.0%; height: 100.0%;">City: Mumbai Suburban, Mumbai<br>Avg Salary: 2.25 LPA</div>`)[0];
+                popup_31544a079167775d5783e497debc9b45.setContent(html_7827f13c1d3bc80d7504600f488dfdc2);
+            
+        
+
+        circle_marker_8bdeca3e5fbb6b0c7ea2a09fa144558a.bindPopup(popup_31544a079167775d5783e497debc9b45)
+        ;
+
+        
+    
+    
+            var circle_marker_c7cd3ccbf38c4866b21e9c141e2805a1 = L.circleMarker(
+                [13.0002869, 77.5718472],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_2cadc7bfe36eb669c19dbd296b730cc8 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_726fe6720deb34e78b178d3261dd4857 = $(`<div id="html_726fe6720deb34e78b178d3261dd4857" style="width: 100.0%; height: 100.0%;">City: Mumbai, Bengaluru<br>Avg Salary: nan LPA</div>`)[0];
+                popup_2cadc7bfe36eb669c19dbd296b730cc8.setContent(html_726fe6720deb34e78b178d3261dd4857);
+            
+        
+
+        circle_marker_c7cd3ccbf38c4866b21e9c141e2805a1.bindPopup(popup_2cadc7bfe36eb669c19dbd296b730cc8)
+        ;
+
+        
+    
+    
+            var circle_marker_3135583671bcc8996961e22014e14824 = L.circleMarker(
+                [21.201762644919953, 72.9338667589572],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_52dd06ad0b49789262a2bccab2fb3987 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_2865763a56f8ca779c9b42d1a59313cd = $(`<div id="html_2865763a56f8ca779c9b42d1a59313cd" style="width: 100.0%; height: 100.0%;">City: Mumbai, Surat<br>Avg Salary: nan LPA</div>`)[0];
+                popup_52dd06ad0b49789262a2bccab2fb3987.setContent(html_2865763a56f8ca779c9b42d1a59313cd);
+            
+        
+
+        circle_marker_3135583671bcc8996961e22014e14824.bindPopup(popup_52dd06ad0b49789262a2bccab2fb3987)
+        ;
+
+        
+    
+    
+            var circle_marker_73a1e0361d06247a85fb2c79c1c47fb3 = L.circleMarker(
+                [36.3042502, 74.26652003221122],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_9b895356c2670b81d3c7ae01d8aa4716 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_5c851d74626c8c0ea73ed387b13f4eab = $(`<div id="html_5c851d74626c8c0ea73ed387b13f4eab" style="width: 100.0%; height: 100.0%;">City: Nagar<br>Avg Salary: nan LPA</div>`)[0];
+                popup_9b895356c2670b81d3c7ae01d8aa4716.setContent(html_5c851d74626c8c0ea73ed387b13f4eab);
+            
+        
+
+        circle_marker_73a1e0361d06247a85fb2c79c1c47fb3.bindPopup(popup_9b895356c2670b81d3c7ae01d8aa4716)
+        ;
+
+        
+    
+    
+            var circle_marker_46b49dd0e44295d936842ab818f2d0ae = L.circleMarker(
+                [21.1498134, 79.0820556],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_1841995bab8a6e2b5641ce316c0a5c7d = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_d92bda3b7a372230c180efa15dbe8d1b = $(`<div id="html_d92bda3b7a372230c180efa15dbe8d1b" style="width: 100.0%; height: 100.0%;">City: Nagpur<br>Avg Salary: nan LPA</div>`)[0];
+                popup_1841995bab8a6e2b5641ce316c0a5c7d.setContent(html_d92bda3b7a372230c180efa15dbe8d1b);
+            
+        
+
+        circle_marker_46b49dd0e44295d936842ab818f2d0ae.bindPopup(popup_1841995bab8a6e2b5641ce316c0a5c7d)
+        ;
+
+        
+    
+    
+            var circle_marker_6c0f7127e4ab6c219151ab28243143e8 = L.circleMarker(
+                [19.0308262, 73.0198537],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.5, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_8c86e6ddec5e7b1676521ab284fd6484 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_67cf9aae80e0478417d3b8dcafc26133 = $(`<div id="html_67cf9aae80e0478417d3b8dcafc26133" style="width: 100.0%; height: 100.0%;">City: Navi Mumbai<br>Avg Salary: 5.00 LPA</div>`)[0];
+                popup_8c86e6ddec5e7b1676521ab284fd6484.setContent(html_67cf9aae80e0478417d3b8dcafc26133);
+            
+        
+
+        circle_marker_6c0f7127e4ab6c219151ab28243143e8.bindPopup(popup_8c86e6ddec5e7b1676521ab284fd6484)
+        ;
+
+        
+    
+    
+            var circle_marker_ae6d69aa025e386c9035137c4954a495 = L.circleMarker(
+                [14.4493717, 79.9873763],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_9e02604e00ab1fcd8dd1fb913cd7983e = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a1713c550f4fb7b0e52cfdcbfb926d2a = $(`<div id="html_a1713c550f4fb7b0e52cfdcbfb926d2a" style="width: 100.0%; height: 100.0%;">City: Nellore<br>Avg Salary: nan LPA</div>`)[0];
+                popup_9e02604e00ab1fcd8dd1fb913cd7983e.setContent(html_a1713c550f4fb7b0e52cfdcbfb926d2a);
+            
+        
+
+        circle_marker_ae6d69aa025e386c9035137c4954a495.bindPopup(popup_9e02604e00ab1fcd8dd1fb913cd7983e)
+        ;
+
+        
+    
+    
+            var circle_marker_c1b02e3d65a47284702730f1c72892ce = L.circleMarker(
+                [28.5706333, 77.3272147],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.142857142857143, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_1fb6106b023989200528e745691f413d = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_bbb4deb5e993fda3c4a62ff254284d27 = $(`<div id="html_bbb4deb5e993fda3c4a62ff254284d27" style="width: 100.0%; height: 100.0%;">City: Noida<br>Avg Salary: 10.29 LPA</div>`)[0];
+                popup_1fb6106b023989200528e745691f413d.setContent(html_bbb4deb5e993fda3c4a62ff254284d27);
+            
+        
+
+        circle_marker_c1b02e3d65a47284702730f1c72892ce.bindPopup(popup_1fb6106b023989200528e745691f413d)
+        ;
+
+        
+    
+    
+            var circle_marker_f93bc4fba9984888c1ed3aac55198703 = L.circleMarker(
+                [28.6358212, 77.08925907626238],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.25, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_5231bc2a41a8f5237f9acbcf5e6c0657 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_32b1026daef5166cb30bc5fd004b3d71 = $(`<div id="html_32b1026daef5166cb30bc5fd004b3d71" style="width: 100.0%; height: 100.0%;">City: Noida, New Delhi<br>Avg Salary: 6.50 LPA</div>`)[0];
+                popup_5231bc2a41a8f5237f9acbcf5e6c0657.setContent(html_32b1026daef5166cb30bc5fd004b3d71);
+            
+        
+
+        circle_marker_f93bc4fba9984888c1ed3aac55198703.bindPopup(popup_5231bc2a41a8f5237f9acbcf5e6c0657)
+        ;
+
+        
+    
+    
+            var circle_marker_20440b791436fd7b28eb87e3ae260a5e = L.circleMarker(
+                [30.6975401, 76.8551066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_ffb186aab725443168b8275c362527e8 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_d7b6806ea9efd8105c661f71b1b61389 = $(`<div id="html_d7b6806ea9efd8105c661f71b1b61389" style="width: 100.0%; height: 100.0%;">City: Panchkula<br>Avg Salary: nan LPA</div>`)[0];
+                popup_ffb186aab725443168b8275c362527e8.setContent(html_d7b6806ea9efd8105c661f71b1b61389);
+            
+        
+
+        circle_marker_20440b791436fd7b28eb87e3ae260a5e.bindPopup(popup_ffb186aab725443168b8275c362527e8)
+        ;
+
+        
+    
+    
+            var circle_marker_799a02a40e83b5f43793b5b5c76ce9ec = L.circleMarker(
+                [25.6093239, 85.1235252],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_831619b5cec7040f1e50349e53915f6b = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_dee38aff5bfc9ca0b993184082ae463a = $(`<div id="html_dee38aff5bfc9ca0b993184082ae463a" style="width: 100.0%; height: 100.0%;">City: Patna<br>Avg Salary: nan LPA</div>`)[0];
+                popup_831619b5cec7040f1e50349e53915f6b.setContent(html_dee38aff5bfc9ca0b993184082ae463a);
+            
+        
+
+        circle_marker_799a02a40e83b5f43793b5b5c76ce9ec.bindPopup(popup_831619b5cec7040f1e50349e53915f6b)
+        ;
+
+        
+    
+    
+            var circle_marker_a277b85d94cbebf1336c789e3f22e13f = L.circleMarker(
+                [18.6279288, 73.8009829],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_7d77555119404089c0cf565e469926f9 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_6ba40c70a3e2c1edc20bdb40b6d7ba2e = $(`<div id="html_6ba40c70a3e2c1edc20bdb40b6d7ba2e" style="width: 100.0%; height: 100.0%;">City: Pimpri-Chinchwad, Pune<br>Avg Salary: 2.00 LPA</div>`)[0];
+                popup_7d77555119404089c0cf565e469926f9.setContent(html_6ba40c70a3e2c1edc20bdb40b6d7ba2e);
+            
+        
+
+        circle_marker_a277b85d94cbebf1336c789e3f22e13f.bindPopup(popup_7d77555119404089c0cf565e469926f9)
+        ;
+
+        
+    
+    
+            var circle_marker_b51352805febb4de3c5284ed0c540c88 = L.circleMarker(
+                [25.4381302, 81.8338005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_6c255abaf8cfb2d7b80dba3987d2303a = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_973cda13975d97cf749e41c138ebd1ba = $(`<div id="html_973cda13975d97cf749e41c138ebd1ba" style="width: 100.0%; height: 100.0%;">City: Prayagraj<br>Avg Salary: nan LPA</div>`)[0];
+                popup_6c255abaf8cfb2d7b80dba3987d2303a.setContent(html_973cda13975d97cf749e41c138ebd1ba);
+            
+        
+
+        circle_marker_b51352805febb4de3c5284ed0c540c88.bindPopup(popup_6c255abaf8cfb2d7b80dba3987d2303a)
+        ;
+
+        
+    
+    
+            var circle_marker_1e7c6379dc11d213617313e06601c94d = L.circleMarker(
+                [18.5213738, 73.8545071],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.075, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_c2bbbbf6baa478ecbea6f3f56a2ee38a = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_804f85c557309d4840466d1c4d43549d = $(`<div id="html_804f85c557309d4840466d1c4d43549d" style="width: 100.0%; height: 100.0%;">City: Pune<br>Avg Salary: 8.15 LPA</div>`)[0];
+                popup_c2bbbbf6baa478ecbea6f3f56a2ee38a.setContent(html_804f85c557309d4840466d1c4d43549d);
+            
+        
+
+        circle_marker_1e7c6379dc11d213617313e06601c94d.bindPopup(popup_c2bbbbf6baa478ecbea6f3f56a2ee38a)
+        ;
+
+        
+    
+    
+            var circle_marker_d7f1c6e26f1af70514d0e1d1013ae0ef = L.circleMarker(
+                [18.37184556150068, 73.8544781084757],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_5e33977d85b17d8d86adff4e7c7d5142 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_186db97abbc07689652bab3a3156c094 = $(`<div id="html_186db97abbc07689652bab3a3156c094" style="width: 100.0%; height: 100.0%;">City: Pune, Bengaluru<br>Avg Salary: nan LPA</div>`)[0];
+                popup_5e33977d85b17d8d86adff4e7c7d5142.setContent(html_186db97abbc07689652bab3a3156c094);
+            
+        
+
+        circle_marker_d7f1c6e26f1af70514d0e1d1013ae0ef.bindPopup(popup_5e33977d85b17d8d86adff4e7c7d5142)
+        ;
+
+        
+    
+    
+            var circle_marker_f2dd500455aa40e1a32fea1578377d5a = L.circleMarker(
+                [18.5093984, 73.9281865],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_e767a334305f69c4d4e63c728da64aab = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_110ad28a2da681a309d8fe6baadcaf50 = $(`<div id="html_110ad28a2da681a309d8fe6baadcaf50" style="width: 100.0%; height: 100.0%;">City: Pune, Chennai<br>Avg Salary: nan LPA</div>`)[0];
+                popup_e767a334305f69c4d4e63c728da64aab.setContent(html_110ad28a2da681a309d8fe6baadcaf50);
+            
+        
+
+        circle_marker_f2dd500455aa40e1a32fea1578377d5a.bindPopup(popup_e767a334305f69c4d4e63c728da64aab)
+        ;
+
+        
+    
+    
+            var circle_marker_21e5c03bce42024c0002ad506f147e73 = L.circleMarker(
+                [23.28924135, 74.97947327090435],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_7ca42e6f823b9a064dcdd60e388663c6 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a45566172691717dbc24acbb9902cdc8 = $(`<div id="html_a45566172691717dbc24acbb9902cdc8" style="width: 100.0%; height: 100.0%;">City: Rajpura<br>Avg Salary: nan LPA</div>`)[0];
+                popup_7ca42e6f823b9a064dcdd60e388663c6.setContent(html_a45566172691717dbc24acbb9902cdc8);
+            
+        
+
+        circle_marker_21e5c03bce42024c0002ad506f147e73.bindPopup(popup_7ca42e6f823b9a064dcdd60e388663c6)
+        ;
+
+        
+    
+    
+            var circle_marker_1f2551a2817259a8676c598c6c29e764 = L.circleMarker(
+                [9.2844657, 79.3125553],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_6c0b1aec3831d36354dfb728feb7a705 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_76a079aa77c3a3772cc5547d64b0cd96 = $(`<div id="html_76a079aa77c3a3772cc5547d64b0cd96" style="width: 100.0%; height: 100.0%;">City: Rameswaram<br>Avg Salary: nan LPA</div>`)[0];
+                popup_6c0b1aec3831d36354dfb728feb7a705.setContent(html_76a079aa77c3a3772cc5547d64b0cd96);
+            
+        
+
+        circle_marker_1f2551a2817259a8676c598c6c29e764.bindPopup(popup_6c0b1aec3831d36354dfb728feb7a705)
+        ;
+
+        
+    
+    
+            var circle_marker_da1004a875d3ac755fe2d8e9a5adb9d5 = L.circleMarker(
+                [43.0059455, -123.8925908],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.25, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_979e22d8e05e359df8877de74ae09a44 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_37a6bf9c4f72d19e82b7616bc4007862 = $(`<div id="html_37a6bf9c4f72d19e82b7616bc4007862" style="width: 100.0%; height: 100.0%;">City: Remote<br>Avg Salary: 12.50 LPA</div>`)[0];
+                popup_979e22d8e05e359df8877de74ae09a44.setContent(html_37a6bf9c4f72d19e82b7616bc4007862);
+            
+        
+
+        circle_marker_da1004a875d3ac755fe2d8e9a5adb9d5.bindPopup(popup_979e22d8e05e359df8877de74ae09a44)
+        ;
+
+        
+    
+    
+            var circle_marker_6a6ec21c9e5dd45cdfa093176ed44501 = L.circleMarker(
+                [23.0238876, 72.3851475],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_5eb84090699a4d88d3dfc462095a7fe1 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_c11b3ec6cd65c4399bc8a56d6a8c7bbe = $(`<div id="html_c11b3ec6cd65c4399bc8a56d6a8c7bbe" style="width: 100.0%; height: 100.0%;">City: Sanand<br>Avg Salary: nan LPA</div>`)[0];
+                popup_5eb84090699a4d88d3dfc462095a7fe1.setContent(html_c11b3ec6cd65c4399bc8a56d6a8c7bbe);
+            
+        
+
+        circle_marker_6a6ec21c9e5dd45cdfa093176ed44501.bindPopup(popup_5eb84090699a4d88d3dfc462095a7fe1)
+        ;
+
+        
+    
+    
+            var circle_marker_b207d98586e28a7e929283b03e092632 = L.circleMarker(
+                [31.1041526, 77.1709729],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_9a2323b33aa0401de1c179416cc0e704 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_55f4e3f4ab01e54cbaa49763ad4fae38 = $(`<div id="html_55f4e3f4ab01e54cbaa49763ad4fae38" style="width: 100.0%; height: 100.0%;">City: Shimla<br>Avg Salary: nan LPA</div>`)[0];
+                popup_9a2323b33aa0401de1c179416cc0e704.setContent(html_55f4e3f4ab01e54cbaa49763ad4fae38);
+            
+        
+
+        circle_marker_b207d98586e28a7e929283b03e092632.bindPopup(popup_9a2323b33aa0401de1c179416cc0e704)
+        ;
+
+        
+    
+    
+            var circle_marker_05ffb5c82638483f626fad482849dc8b = L.circleMarker(
+                [13.02173231226024, 80.14527564893733],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.375, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_d46463903b2112aaf725f1faa1485e91 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_d2dc9b10b1635acc7ed4f5a5dee5beff = $(`<div id="html_d2dc9b10b1635acc7ed4f5a5dee5beff" style="width: 100.0%; height: 100.0%;">City: Sriperumbudur, Chennai<br>Avg Salary: 4.75 LPA</div>`)[0];
+                popup_d46463903b2112aaf725f1faa1485e91.setContent(html_d2dc9b10b1635acc7ed4f5a5dee5beff);
+            
+        
+
+        circle_marker_05ffb5c82638483f626fad482849dc8b.bindPopup(popup_d46463903b2112aaf725f1faa1485e91)
+        ;
+
+        
+    
+    
+            var circle_marker_ee6b67255f0e68e69e14f3df21179339 = L.circleMarker(
+                [21.2094892, 72.8317058],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_96618329d27dfd97a21b172648dfd4e1 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_1e779f90ec0784bf82082f070d901302 = $(`<div id="html_1e779f90ec0784bf82082f070d901302" style="width: 100.0%; height: 100.0%;">City: Surat<br>Avg Salary: nan LPA</div>`)[0];
+                popup_96618329d27dfd97a21b172648dfd4e1.setContent(html_1e779f90ec0784bf82082f070d901302);
+            
+        
+
+        circle_marker_ee6b67255f0e68e69e14f3df21179339.bindPopup(popup_96618329d27dfd97a21b172648dfd4e1)
+        ;
+
+        
+    
+    
+            var circle_marker_5823beaec3ce6a342126c7eb1efda2e5 = L.circleMarker(
+                [19.1943294, 72.9701779],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_13db1221d6a6aac8e6417cccb5414795 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_c0ad39b885d5915b6a8c34ba5782283d = $(`<div id="html_c0ad39b885d5915b6a8c34ba5782283d" style="width: 100.0%; height: 100.0%;">City: Thane<br>Avg Salary: nan LPA</div>`)[0];
+                popup_13db1221d6a6aac8e6417cccb5414795.setContent(html_c0ad39b885d5915b6a8c34ba5782283d);
+            
+        
+
+        circle_marker_5823beaec3ce6a342126c7eb1efda2e5.bindPopup(popup_13db1221d6a6aac8e6417cccb5414795)
+        ;
+
+        
+    
+    
+            var circle_marker_82005b32654c3d3571efc113dcbfaf01 = L.circleMarker(
+                [8.4882267, 76.947551],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.0, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_e6b9018497e8749cf6ae45179cbadb30 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_2f836c88eeaf49c8c2b27a286cd8eecf = $(`<div id="html_2f836c88eeaf49c8c2b27a286cd8eecf" style="width: 100.0%; height: 100.0%;">City: Thiruvananthapuram<br>Avg Salary: 6.00 LPA</div>`)[0];
+                popup_e6b9018497e8749cf6ae45179cbadb30.setContent(html_2f836c88eeaf49c8c2b27a286cd8eecf);
+            
+        
+
+        circle_marker_82005b32654c3d3571efc113dcbfaf01.bindPopup(popup_e6b9018497e8749cf6ae45179cbadb30)
+        ;
+
+        
+    
+    
+            var circle_marker_d6a3673b10843dd067e45ca453bd6113 = L.circleMarker(
+                [10.76316505, 78.71326006478583],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_07c47ecebb31bfb77ede97244ca5be63 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_cb64bae3e42a1be9705a9aec12c33f92 = $(`<div id="html_cb64bae3e42a1be9705a9aec12c33f92" style="width: 100.0%; height: 100.0%;">City: Tiruchirapalli<br>Avg Salary: nan LPA</div>`)[0];
+                popup_07c47ecebb31bfb77ede97244ca5be63.setContent(html_cb64bae3e42a1be9705a9aec12c33f92);
+            
+        
+
+        circle_marker_d6a3673b10843dd067e45ca453bd6113.bindPopup(popup_07c47ecebb31bfb77ede97244ca5be63)
+        ;
+
+        
+    
+    
+            var circle_marker_041627c9664a3294c377a6f82815340a = L.circleMarker(
+                [24.578721, 73.6862571],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_a530d95229abebfd18ca1a17254e3726 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_64e25626b208c03632e17394ee50a673 = $(`<div id="html_64e25626b208c03632e17394ee50a673" style="width: 100.0%; height: 100.0%;">City: Udaipur<br>Avg Salary: nan LPA</div>`)[0];
+                popup_a530d95229abebfd18ca1a17254e3726.setContent(html_64e25626b208c03632e17394ee50a673);
+            
+        
+
+        circle_marker_041627c9664a3294c377a6f82815340a.bindPopup(popup_a530d95229abebfd18ca1a17254e3726)
+        ;
+
+        
+    
+    
+            var circle_marker_cbceef61404db429375d760126c0cdd6 = L.circleMarker(
+                [22.2973142, 73.1942567],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.75, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_785cb3e03ada1397bb201dbd7d889cfa = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_8e88c686b8ae114572ec720c9a26d8e0 = $(`<div id="html_8e88c686b8ae114572ec720c9a26d8e0" style="width: 100.0%; height: 100.0%;">City: Vadodara<br>Avg Salary: 13.50 LPA</div>`)[0];
+                popup_785cb3e03ada1397bb201dbd7d889cfa.setContent(html_8e88c686b8ae114572ec720c9a26d8e0);
+            
+        
+
+        circle_marker_cbceef61404db429375d760126c0cdd6.bindPopup(popup_785cb3e03ada1397bb201dbd7d889cfa)
+        ;
+
+        
+    
+    
+            var circle_marker_c9d08c093c319ed95f9051f7121838d2 = L.circleMarker(
+                [12.9021849, 79.06110398623842],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.5, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_8a0dc46d6d96cd16900107c41469f5a4 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_b33beefa854f49eda0d4975b1f53e480 = $(`<div id="html_b33beefa854f49eda0d4975b1f53e480" style="width: 100.0%; height: 100.0%;">City: Vellore<br>Avg Salary: 5.00 LPA</div>`)[0];
+                popup_8a0dc46d6d96cd16900107c41469f5a4.setContent(html_b33beefa854f49eda0d4975b1f53e480);
+            
+        
+
+        circle_marker_c9d08c093c319ed95f9051f7121838d2.bindPopup(popup_8a0dc46d6d96cd16900107c41469f5a4)
+        ;
+
+        
+    
+    
+            var circle_marker_60e716e4d205f36de5806b79fa8ad97a = L.circleMarker(
+                [12.11669665, 79.59892355244544],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_56c329894175539a78247f5c59eabeb2 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_555f2d1526f8df439edf641112d92085 = $(`<div id="html_555f2d1526f8df439edf641112d92085" style="width: 100.0%; height: 100.0%;">City: Viluppuram<br>Avg Salary: nan LPA</div>`)[0];
+                popup_56c329894175539a78247f5c59eabeb2.setContent(html_555f2d1526f8df439edf641112d92085);
+            
+        
+
+        circle_marker_60e716e4d205f36de5806b79fa8ad97a.bindPopup(popup_56c329894175539a78247f5c59eabeb2)
+        ;
+
+        
+    
+    
+            var circle_marker_f9471dbef98656998f343a734475dbe1 = L.circleMarker(
+                [17.6935526, 83.2921297],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_b958cbbf7e58bbc6d156398c0df35c4f = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_d7bf2199861b3b6be6353c8aae618faa = $(`<div id="html_d7bf2199861b3b6be6353c8aae618faa" style="width: 100.0%; height: 100.0%;">City: Visakhapatnam<br>Avg Salary: nan LPA</div>`)[0];
+                popup_b958cbbf7e58bbc6d156398c0df35c4f.setContent(html_d7bf2199861b3b6be6353c8aae618faa);
+            
+        
+
+        circle_marker_f9471dbef98656998f343a734475dbe1.bindPopup(popup_b958cbbf7e58bbc6d156398c0df35c4f)
+        ;
+
+        
+    
+    
+            var circle_marker_d18ce420fa869324674da687c1e59ed6 = L.circleMarker(
+                [11.71512915, 76.12711850740615],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_9932cf0be3de9cda2bd5c428f655cbe5 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a49c2f5328c3fd78c72e3ef05f9ba86c = $(`<div id="html_a49c2f5328c3fd78c72e3ef05f9ba86c" style="width: 100.0%; height: 100.0%;">City: Wayanad<br>Avg Salary: nan LPA</div>`)[0];
+                popup_9932cf0be3de9cda2bd5c428f655cbe5.setContent(html_a49c2f5328c3fd78c72e3ef05f9ba86c);
+            
+        
+
+        circle_marker_d18ce420fa869324674da687c1e59ed6.bindPopup(popup_9932cf0be3de9cda2bd5c428f655cbe5)
+        ;
+
+        
+    
+    
+            var circle_marker_6c5cf681a2ba18e0e047b3d47b151127 = L.circleMarker(
+                [22.6895535, 72.8713603],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_28d97fb8e5329f34e7d8f725c655c307);
+        
+    
+        var popup_53fdcc737e550195a57f23050315abdc = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_028ac5b68f6c5696999dff6162a10fa4 = $(`<div id="html_028ac5b68f6c5696999dff6162a10fa4" style="width: 100.0%; height: 100.0%;">City: nadiad,Gujarat, India<br>Avg Salary: nan LPA</div>`)[0];
+                popup_53fdcc737e550195a57f23050315abdc.setContent(html_028ac5b68f6c5696999dff6162a10fa4);
+            
+        
+
+        circle_marker_6c5cf681a2ba18e0e047b3d47b151127.bindPopup(popup_53fdcc737e550195a57f23050315abdc)
+        ;
+
+        
+    
+</script>
+</html>
